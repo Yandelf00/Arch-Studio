@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
@@ -7,8 +8,8 @@ export default function Home() {
           </div>
           <h1 className=" rotate-90 text-gray-200 text-[22px] font-light ">HOME</h1>
         </div>
-        <div className="w-[1250px]">
-
+        <div className="w-[1250px] flex justify-center">
+          <Navbar/>
         </div>
     </main>
   );
