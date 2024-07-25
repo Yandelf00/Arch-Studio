@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-
+import Welcome from "@/components/Welcome";
+import Team from "@/components/Team";
 
 export default function Home() {
   return (
@@ -10,9 +11,15 @@ export default function Home() {
           </div>
           <h1 className=" rotate-90 text-gray-200 text-[22px] font-light ">HOME</h1>
         </div>
-        <div className="w-[1250px]  flex flex-col items-center ">
-          <Navbar/>
-          <Hero/>
+        <div className="flex flex-col">
+          <div className="w-[1250px]  flex flex-col items-center ">
+            <Navbar/>
+            <Hero/>
+          </div>
+          <div className="w-[1250px]  flex flex-col items-start">
+            <Welcome/>
+            <Team/>
+          </div>
         </div>
     </main>
   );

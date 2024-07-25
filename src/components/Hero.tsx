@@ -35,7 +35,7 @@ export default function Hero() {
     }
 
     return (
-        <div className='relative w-[1150px]  h-[700px]
+        <div className='relative w-[1150px] h-[700px]
         flex justify-start bg-no-repeat '>
             <HeroOne bgImage={hero.bgImage} title={hero.title} desc={hero.desc}/>
             <div className='h-[90px] w-[320px] flex flex-row bg-gray-100 left-[-80px] absolute bottom-0'>
