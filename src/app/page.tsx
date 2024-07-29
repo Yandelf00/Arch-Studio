@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Welcome from "@/components/Welcome";
 import Team from "@/components/Team";
 import Featured from "@/components/Featured";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
             <Welcome/>
             <Team/>
             <Featured/>
+            <Footer/>
           </div>
         </div>
     </main>
