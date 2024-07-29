@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Welcome from "@/components/Welcome";
 import Team from "@/components/Team";
+import Featured from "@/components/Featured";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
           <div className="w-[1250px]  flex flex-col items-start">
             <Welcome/>
             <Team/>
+            <Featured/>
           </div>
         </div>
     </main>
